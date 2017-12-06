@@ -1,0 +1,2 @@
+name,gender,speciality,practice_name,edu_name,completion_year,street_address,city,state,state_slug,zip_code,phone,responseCount,reviewCount,average_score,link,api_url
+Dr. Stephen R. Guy,M,Gynecologist (OBGYN),Women’s Health Specialists & Midwives of Dayton,Ohio State University College Of Medicine,1981,136 S LUDLOW ST,Vandalia,Ohio,oh,45390,,,16,4.484375,https://www.ratemds.com/doctor-ratings/873412/Dr-Stephen+R.-Guy-VANDALIA-OH.html,https://www.ratemds.com/api/doctor/1721645/

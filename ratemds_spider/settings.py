@@ -112,6 +112,7 @@ FIELDS_TO_EXPORT = [
                     'city',
                     'state',
                     'state_slug',
+                    'country',
                     'zip_code',
                     'phone',
                     'responseCount',
@@ -141,8 +142,8 @@ FEED_URI = "export/ratemds_{0}.csv".format(timestmp) # WHERE to store the export
 
 # Enable and configure HTTP caching (disabled by default)
 # See http://scrapy.readthedocs.org/en/latest/topics/downloader-middleware.html#httpcache-middleware-settings
-# HTTPCACHE_ENABLED = True
-# HTTPCACHE_EXPIRATION_SECS = 8640000
-# HTTPCACHE_DIR = 'httpcache'
+HTTPCACHE_ENABLED = True
+HTTPCACHE_EXPIRATION_SECS = 8640000
+HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'

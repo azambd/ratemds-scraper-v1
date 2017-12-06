@@ -44,8 +44,9 @@ class RatemdsSpider(CrawlSpider):
         i['street_address'] = json_data['location']['address']
         i['city'] = json_data['location']['city']['name']
         i['state'] = json_data['location']['city']['province_name']
-        i['state'] = i['state']
-        i['state_slug'] = json_data['location']['city']['province_slug']
+        state_slug = json_data['location']['city']['province_slug']
+        i['state_slug'] = state_slug.upper()
+        i['country'] = json_data['location']['city']['country_name']
         i['zip_code'] = json_data['location']['postal_code']
         i['phone'] = json_data['location']['phone_number']
         i['reviewCount'] = json_data['rating']['count']

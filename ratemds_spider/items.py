@@ -22,6 +22,7 @@ class RatemdsSpiderItem(scrapy.Item):
 	city = scrapy.Field()
 	state = scrapy.Field()
 	state_slug = scrapy.Field()
+	country = scrapy.Field()
 	zip_code = scrapy.Field()
 	phone = scrapy.Field()
 	responseCount = scrapy.Field()
