@@ -39,7 +39,7 @@ USER_AGENT = 'Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot
 
 DOWNLOADER_MIDDLEWARES = {'scrapy_crawlera.CrawleraMiddleware': 600}
 CRAWLERA_ENABLED = True
-CRAWLERA_USER = 'bac4b17b9e244414be38f2cc372cea23'
+CRAWLERA_USER = ''
 CRAWLERA_PASS = ''
 CONCURRENT_REQUESTS = 10
 CONCURRENT_REQUESTS_PER_DOMAIN = 10
